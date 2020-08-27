@@ -6,6 +6,15 @@
   "author": "jay",
   "license": "ISC",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon --exec babel-node index.js --delay 2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
