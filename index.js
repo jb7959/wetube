@@ -1,1 +1,4 @@
-console.log("HI");
+const express = require('express');
+const app = express();
+
+app.listen(4000, () => console.log('localhost:4000'));

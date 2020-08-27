@@ -4,5 +4,8 @@
   "description": "practice",
   "main": "index.js",
   "author": "jay",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js"
+  }
 }
